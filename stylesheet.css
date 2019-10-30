@@ -1,0 +1,102 @@
+#topbar{
+  height:15%;
+  width:100%;
+}
+#bodyLogo img{
+  height:100%;
+  width: 100%;
+}
+#bodyLogo{
+  height:35%;
+  width: 9%;
+  float: left;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+#pageTitle{
+  display: inline-block;
+  padding-left: 35%;
+  font-family: 'Lato', sans-serif;
+  color: blue;
+}
+#profile{
+  padding-right: 2%;
+  float: right;
+  font-family: 'Lato', sans-serif;
+  padding-top: 1%;
+}
+#someBar{
+  width:100%;
+  height: 6%;
+  background-color: blue;
+}
+#myInput {
+    float: left;
+    background-image: url('/images/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    font-size: 16px; /* Increase font-size */
+    border-radius: 5px;
+    border-style: solid;
+    border: 2px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 80%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    margin-left:5%;
+    font-family: 'Lato', sans-serif;
+}
+#myTable th{
+  background-color: rgb(100, 100, 152);
+  text-align: center;
+  color:white;
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+     /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable th:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: rgba(15,200,15,0.8);
+}
+.LMtoolbar{
+  display:inline-block;
+  font-family: 'Lato', sans-serif;
+  margin-left:5%;
+}
+#selectLM{
+  display:inline-block;
+  font-family: 'Lato', sans-serif;
+  width:40%;
+  margin-left:2%;
+}
+#selectProject{
+  display:inline-block;
+  font-family: 'Lato', sans-serif;
+  width:40%;
+  margin-left:2%;
+}
+.row{
+  margin-top:2%;
+  margin-bottom:1%;
+}
+
+#addButton{
+  margin-left:5%;
+}
+#pageNumbers{
+  display: inline-block;
+  margin-left: 20%;
+}

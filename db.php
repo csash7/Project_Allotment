@@ -1,7 +1,7 @@
 <?php
-$servername = "10.128.0.3:3306";
-$username = "csash7";
-$password = "parvathi";
+$servername = "ip-address:3306";
+$username = "user";
+$password = "password";
 $dbname = "Allotment";
 
 $mysqli = new mysqli($servername,$username,$password,$dbname);
